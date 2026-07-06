@@ -27,6 +27,12 @@ Windows logs help defenders:
 
 Windows Event Viewer is the primary tool used to view and investigate Windows logs.
 
+## Windows Event Viewer
+
+![Windows Event Viewer](screenshots/windows-logging-event-viewer.png)
+
+*Figure 1: Explored Windows Event Viewer and navigated through available log categories.*
+
 During this lab I practiced:
 
 - Opening Event Viewer
