@@ -101,19 +101,6 @@ Sysmon (System Monitor) extends the default Windows logging capabilities by prov
 
 ---
 
-# PowerShell Logging
-
-PowerShell is widely used by administrators but is also frequently abused by attackers.
-
-During this room I learned the importance of monitoring:
-
-- PowerShell Operational Logs
-- Command execution history
-- Suspicious PowerShell activity
-
-Monitoring PowerShell helps defenders detect fileless attacks, malicious scripts, and unauthorized administrative actions.
-
----
 
 # Practical Skills Demonstrated
 
@@ -128,7 +115,6 @@ During this lab I performed the following activities:
 - Explored Sysmon Operational logs
 - Analyzed Sysmon Process Creation events
 - Reviewed Sysmon Network Connection events
-- Investigated PowerShell logging
 - Correlated multiple log sources during investigations
 
 ---
@@ -157,7 +143,6 @@ For example:
 - Multiple failed logons (Event ID 4625) followed by a successful logon (Event ID 4624) may indicate a successful brute-force attack.
 - Sysmon Process Creation events can identify malicious executables launched after authentication.
 - Network Connection events help determine whether a compromised system communicated with external infrastructure.
-- PowerShell logs provide visibility into scripts executed after compromise.
 
 Correlating these events provides a more complete understanding of attacker behavior.
 
@@ -176,7 +161,6 @@ Examples include:
 - Sysmon Operational Log
 - Sysmon Event ID 1
 - Sysmon Event ID 3
-- PowerShell Logging
 
 ---
 
@@ -191,7 +175,6 @@ Examples include:
 - Sysmon Analysis
 - Process Investigation
 - Network Connection Analysis
-- PowerShell Logging
 - Security Event Correlation
 - Incident Investigation Fundamentals
 
