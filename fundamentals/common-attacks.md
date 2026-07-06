@@ -12,34 +12,42 @@ This room is concept-based rather than lab-based — just building the attack vo
 
 Attack Types — Quick Reference
 
-Type                   Examples                           How It Works   
-Social Engineering     Phishing, pretexting,baiting       Targets people,not systems
-Malware                Virus, worm, trojan, ransomware    Differ by propagation method 
-Network Attacks        DoS/DDoS, MITM                     Disrupt or intercept communication
-Password Attacks       Brute force, dictionary,           Differ by method of guessing/reusing
-                          credential stuffing                              credentials            
+| Attack Type | Examples | How It Works | Detection Sources |
+|-------------|----------|--------------|-------------------|
+| Social Engineering | Phishing, Pretexting, Baiting | Tricks people into revealing information | Email Gateway Logs, User Reports |
+| Malware | Virus, Worm, Trojan, Ransomware | Malicious software infects systems | EDR Logs, Antivirus Alerts |
+| Network Attacks | DoS, DDoS, MITM | Disrupts or intercepts network traffic | Firewall Logs, NetFlow, DNS Logs |
+| Password Attacks | Brute Force, Dictionary, Credential Stuffing | Attempts to gain unauthorized access | Windows Event ID 4625, Authentication Logs |
 
-Where Each Attack Shows Up (Detection Surface)
+---
+## Detection Tips
 
-Attack                     Log/Source to Check
-Phishing                   Email gateway logs 
-Malware                    EDR/AV logs
-DoS/DDoS                   Firewall logs, NetFlow 
-MITM                       ARP tables, DNS logs
-Brute force                Auth logs (e.g. Event ID 4625)
+- **Email Gateway Logs** → Detect phishing emails.
+- **EDR Logs** → Detect malware execution.
+- **Firewall Logs** → Detect DoS/DDoS activity.
+- **Windows Event ID 4625** → Detect failed logon attempts.
 
-One Thing I Took Away
+---
+
+## Where Each Attack Shows Up (Detection Surface)
+
+| Attack | Log/Source to Check |
+|--------|----------------------|
+| Phishing | Email Gateway Logs |
+| Malware | EDR/AV Logs |
+| DoS/DDoS | Firewall Logs, NetFlow |
+| MITM | ARP Tables, DNS Logs |
+| Brute Force | Authentication Logs (Windows Event ID 4625) |
 
 Before this room I treated "social engineering" and "phishing" as the same thing.
 Now I know phishing is just one method under the broader social engineering category — the room made that distinction clear with simple examples.
 
-Key terms
+## Key MITRE ATT&CK Techniques
 
+- T1566 – Phishing
+- T1110 – Brute Force
+- T1557 – Adversary-in-the-Middle
+- T1498 – Network Denial of Service
 
-T1566 – Phishing
-T1110 – Brute Force
-T1557 – Adversary-in-the-Middle
-T1498 – Network Denial of Service
-Event ID 4625 – Failed logon attempt
-
+---
 > **Note:** This repository focuses on defensive learning and documentation. It does not contain exploit code, challenge solutions, or walkthroughs.
