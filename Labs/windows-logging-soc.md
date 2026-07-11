@@ -161,7 +161,6 @@ Screenshots of the practical exercises completed during this room are included i
 Examples include:
 
 - Event Viewer Overview
-- Windows Security Log
 - Event ID 4625
 - Event ID 4624
 - Sysmon Operational Log
