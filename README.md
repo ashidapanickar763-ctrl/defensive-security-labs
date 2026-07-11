@@ -14,11 +14,12 @@ This repository serves as a portfolio of my cybersecurity learning and includes:
 - Methodology-focused write-ups
 - Screenshots and supporting evidence
 - Key learning outcomes
+- labs which i have done 
 
 ## Learning Platforms
 
-- TryHackMe *(currently)*
-- Other platforms *(to be added as I continue learning)*
+- TryHackMe 
+- my own home labs which i created
 
 ## Disclaimer
 
