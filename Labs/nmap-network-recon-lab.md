@@ -47,19 +47,16 @@ nmap -p- <target-ip>
 Scans all 65,535 ports instead of just the most common ones, to catch anything running on non-standard ports.
 
 ## Evidence
-![SYN scan results](./screenshots/syn-scan-result.png)
+![SYN scan results](./screenshots/SYN-SCAN-RESULT.png)
 *SYN scan showing open ports on the target*
 
 ![Service/version detection results](./screenshots/VERSION-DETECTION-RESULT.png)
 *Service and version details identified on open ports*
 
-![OS detection results](./screenshots/nmap-os-detection.png)
+![OS detection results](./screenshots/OS-DETECTION-RESULT.png)
 *OS fingerprinting result for the target machine*
 
-![Aggressive scan results](./screenshots/nmap-aggressive-scan.png)
-*Combined scan output with additional service banners*
-
-![All ports scan results](./screenshots/nmap-all-ports.png)
+![All ports scan results](./screenshots/ALL-PORTS-SCAN-RESULT.png)
 *Full port range scan revealing additional open ports*
 
 
