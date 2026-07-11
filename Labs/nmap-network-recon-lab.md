@@ -50,7 +50,7 @@ Scans all 65,535 ports instead of just the most common ones, to catch anything r
 ![SYN scan results](./screenshots/syn-scan-result.png)
 *SYN scan showing open ports on the target*
 
-![Service/version detection results](./screenshots/nmap-service-version.png)
+![Service/version detection results](./screenshots/VERSION_DETECTION_RESULT.png)
 *Service and version details identified on open ports*
 
 ![OS detection results](./screenshots/nmap-os-detection.png)
