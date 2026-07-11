@@ -47,7 +47,7 @@ nmap -p- <target-ip>
 Scans all 65,535 ports instead of just the most common ones, to catch anything running on non-standard ports.
 
 ## Evidence
-![SYN scan results](./screenshots/nmap-syn-scan.png)
+![SYN scan results](./screenshots/SYN-SCANRESULT.png)
 *SYN scan showing open ports on the target*
 
 ![Service/version detection results](./screenshots/nmap-service-version.png)
