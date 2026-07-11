@@ -29,7 +29,7 @@ Windows Event Viewer is the primary tool used to view and investigate Windows lo
 
 ## Windows Event Viewer
 
-![Windows Event Viewer](screenshots/eventviwer.png)
+![Windows Event Viewer](screenshots/EVENTVIWER.png)
 
 *Figure 1: Explored Windows Event Viewer and navigated through available log categories.*
 
