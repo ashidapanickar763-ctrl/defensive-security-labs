@@ -108,6 +108,15 @@ Understanding DNS resolution is important because attackers often target DNS inf
 
 ---
 
+### 6. DHCP Concepts
+DHCP automatically assigns an IP address to a device when it joins a network, instead of requiring manual configuration. This happens through a 4-step process known as **DORA**:
+- **Discover** — device asks if any DHCP server is available
+- **Offer** — DHCP server offers an available IP address
+- **Request** — device requests that specific IP address
+- **Acknowledge** — DHCP server confirms and assigns the IP
+
+### 7. Cisco Packet Tracer (Practical Exercises)
+Completed hands-on VLAN, routing, and DHCP/DNS configuration exercises during diploma coursework — building and testing small network topologies to see these concepts working in practice rather than just in theory.
 # SOC Analyst Perspective
 
 Networking knowledge helps SOC analysts:
