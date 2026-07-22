@@ -29,12 +29,16 @@ Detect suspicious network activity (ICMP pings and an Nmap SYN scan) using Snort
 
 ## Evidence
 ![Snort Detecting ICMP Ping](./screenshots/snort-icmp-alert.png)
+SNORT DETECTION ICMP PING 
 
 ![Snort Detecting Nmap SYN Scan](./screenshots/snort-syn-scan-alert.png)
+SNORT DETECTING NMAP SYN SCAN 
 
 ![Wireshark Filtered SYN Scan Packets](./screenshots/wireshark-syn-filter.png)
+WIRESHARK FILTERED SYN SCAN PACKETS 
 
 ![Wireshark TCP Flags Detail (SYN Set)](./screenshots/wireshark-tcp-flags.png)
+WIRESHARK TCP FLAGS DETAIL (SYN SET)
 
 ## Key Findings
 - Snort 3 uses a completely different config system (Lua-based `snort.lua`) than the older Snort 2 (`snort.conf`) — worth knowing since a lot of tutorials online still reference the old format, which caused some initial confusion.
